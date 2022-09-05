@@ -1,8 +1,10 @@
 spring:
-  mongodb:
-    embedded:
-      version: 3.6.9
-
   rsocket:
     server:
       port: 7071
+  data:
+    mongodb:
+      database: userservice
+      host: localhost
+      username: user
+      password: user

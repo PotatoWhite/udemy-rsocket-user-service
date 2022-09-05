@@ -21,7 +21,7 @@ repositories {
 dependencies {
     implementation('io.netty:netty-resolver-dns-native-macos:4.1.80.Final:osx-aarch_64')
 
-    implementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
+//    implementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
 
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
     implementation 'org.springframework.boot:spring-boot-starter-rsocket'
